@@ -77,10 +77,12 @@
 }
 .active{
     background-color: var(--them-primary) !important;
-    color: white !important;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+.active>div>a{
+    color: white !important;
 }
 @media(max-width:800px){
     .ul{
@@ -103,6 +105,9 @@
         margin-top: 5px;
         font-size: 20px;
         position: absolute;
+    }
+    .ul>li:not(.active)>div>a{
+        color: black !important;
     }
     .ul>li:nth-child(even){
         transform: skew(25deg);
@@ -168,6 +173,9 @@
     }
     .close_menu_icon{
         display: block;
+    }
+    .them{
+        margin-right: 20px;
     }
     .blank_side_bar{
         width: 100%;

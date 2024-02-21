@@ -41,7 +41,7 @@ export default function Home() {
           <div className={styles.sale_box}>
             <IoBagHandleSharp className={styles.blue_icon_box} />
             <span className={styles.title_box}>فروش محصولات</span>
-            <p className={` mt-2 ${styles.text_me}`}>
+            <p className={` mt-2 ${styles.text_box_me}`}>
               شما میتوانید با استفاده از سایت محصولات خود را به دیگران نشان دهید
               و از طریق آن حتی محصولات خود را بفروش برسانید
             </p>
@@ -49,7 +49,7 @@ export default function Home() {
           <div className={styles.user_box}>
             <FaUsers className={styles.pink_icon_box} />
             <span className={styles.title_box}>معرفی خود</span>
-            <p className={` mt-2 ${styles.text_me}`}>
+            <p className={` mt-2 ${styles.text_box_me}`}>
               شما میتوانید با استفاده از سایت خودتان را به دیگران معرفی کنید و
               این کار علاوه بر کسب اعتماد مردم باعث شناخته شدن بین مردم میشود.
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
           <div className={styles.user_box}>
             <LuMessagesSquare className={styles.pink_icon_box} />
             <span className={styles.title_box}>وبلاگ نویسی</span>
-            <p className={` mt-2 ${styles.text_me}`}>
+            <p className={` mt-2 ${styles.text_box_me}`}>
               با استفاده از سایت شما میتوانید انواع وبلاگ ها را بسازید و دانش
               خود را با مردم به اشتراک بزارید
             </p>
@@ -67,7 +67,7 @@ export default function Home() {
           <div className={styles.sale_box}>
             <FaDollarSign className={styles.blue_icon_box} />
             <span className={styles.title_box}>کسب درآمد</span>
-            <p className={` mt-2 ${styles.text_me}`}>
+            <p className={` mt-2 ${styles.text_box_me}`}>
               شما میتوانید با استفاده از سایت از راه های مختلفی کسب درآمد داشته
               باشید یکی از این راه ها تبلیغات هست
             </p>

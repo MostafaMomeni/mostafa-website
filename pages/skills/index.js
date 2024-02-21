@@ -24,7 +24,7 @@ export default function skills() {
 
   return (
     <>
-      <h1 style={{ fontWeight: "bold" }}>توانایی ها</h1>
+      <h1 className={Styles.text_header}>توانایی ها</h1>
       <div className={Styles.skills_parent}>
         {skillsValue.map((item) => (
           <div className={Styles.item_skills}>

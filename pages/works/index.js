@@ -22,7 +22,7 @@ export default function works() {
 
   return (
     <div>
-      <h1 style={{ fontWeight: "bold" }}>نمونه کار ها</h1>
+      <h1 className={Styles.title}>نمونه کار ها</h1>
       <br />
       <div>
         {works.map((item) => (

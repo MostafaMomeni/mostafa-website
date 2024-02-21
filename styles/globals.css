@@ -24,10 +24,11 @@ hr{
   --bg-body: url(https://bostami-bootstrap.ibthemespro.com/bostami-template/assets/img/bg/page-bg-1.jpg);
   --them-primary:#60a7fe;
   --them-mode-btn:rgba(109, 218, 252, 0.524);
-  --bg-card:rgba(255, 255, 255, 1);
-  --bg-light-items:#dee0e0;
+  --bg-card:rgba(255, 255, 255, 0.995);
+  --bg-light-items:#212020;
   --pink:#fff4f4;
   --aqua : #eef5fa;
+  --conflict-text-color:"white"
 }
 body{
   direction: rtl;

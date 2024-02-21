@@ -85,13 +85,13 @@ export default function contactMe() {
 
   return (
     <>
-      <h1 style={{ fontWeight: "bold" }}>ارتباط با من</h1>
+      <h1 className={Styles.title_header}>ارتباط با من</h1>
 
       <div className={Styles.box_parent}>
         <h3 className={Styles.title_text}>
           من همیشه آماده صحبت در مورد پروژه ها هستم
         </h3>
-        <h2 className={Styles.title_text} style={{ fontWeight: "bold" }}>
+        <h2 className={Styles.title_text} >
           {" "}
           کار طراحی سایت(front-end)
         </h2>

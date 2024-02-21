@@ -5,6 +5,10 @@
     padding: 15px;
     border-radius: 15px;
 }
+.title{
+    color: var(--text-color);
+    font-weight: bold;
+}
 .aqua{
     background-color: var(--aqua);
 }
@@ -29,8 +33,10 @@
     margin-bottom: 5px;
     margin-top: 10px;
     font-weight: bold;
-    color: var(--text-color);
     text-align: center;
+}
+.title_box>a{
+    color: black !important;
 }
 @media(max-width:768px){
     .box_parent{

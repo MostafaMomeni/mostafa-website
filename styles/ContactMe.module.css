@@ -4,6 +4,15 @@
     background-color: var(--bg-light-items);
     padding: 30px;
     margin-top: 50px;
+    color: var(--text-color);
+}
+.title_header{
+    color: var(--text-color);
+    font-weight: bold;
+}
+.title_text{
+    color: var(--text-color);
+    font-weight: bold;
 }
 .label{
     font-size: 22px;
@@ -58,7 +67,7 @@
 }
 .button{
     width: 150px;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     padding: 10px;
     text-align: center;
     font-size: 20px;
