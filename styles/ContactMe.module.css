@@ -1,0 +1,97 @@
+.box_parent{
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--bg-light-items);
+    padding: 30px;
+    margin-top: 50px;
+}
+.label{
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.input_parent{
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px;
+}
+.input{
+    border: none;
+    width: 95%;
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    margin: 2px;
+    outline: none;
+    height: 0px;
+    border-bottom: 1px solid var(--bg-card);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.input:focus{
+    height: 35px;
+    padding: 10px;
+}
+.input_valid{
+    height: 35px;
+    padding: 10px;
+}
+.textarea{
+    border: none;
+    width: 95%;
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    margin: 2px;
+    outline: none;
+    height: 0px;
+    border-bottom: 1px solid var(--bg-card);
+    transition: 0.3s;
+    border-radius: 10px;
+    resize: none;
+}
+.textarea:focus{
+    height: 120px;
+    padding: 15px;
+}
+.textarea_valid{
+    height: 120px;
+    padding: 15px;
+}
+.button{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: var(--bg-light-items);
+    transition: 0.3s;
+    color: var(--text-color);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: var(--them-primary);
+    color: white;
+    border: 1px solid var(--them-primary);
+}
+@media(max-width:350px){
+    .button{
+        width: 100px;
+        font-size: 18px; 
+    }
+    .title_text{
+        font-size: 16px;
+    }
+    .label{
+        font-size: 16px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .box_parent{
+        padding: 15px 10px;
+    }
+    .textarea{
+        font-size: 14px;
+    }
+}

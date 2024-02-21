@@ -1,0 +1,40 @@
+.box_parent{
+    width: 90%;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.aqua{
+    background-color: var(--aqua);
+}
+.pink{
+    background-color: var(--pink);
+}
+.pink>p{
+    background-color: var(--aqua);
+}
+.aqua>p{
+    background-color: var(--pink);
+}
+.image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title_box{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+}
+@media(max-width:768px){
+    .box_parent{
+        width: 100%;
+        margin: 15px 0;
+    }
+}

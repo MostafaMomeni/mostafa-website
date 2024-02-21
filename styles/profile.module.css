@@ -1,0 +1,218 @@
+.profile_parent{
+    width: 25%;
+    /* backdrop-filter: blur(25px) saturate(38%);
+    -webkit-backdrop-filter: blur(25px) saturate(38%);
+    background-color: var(--bg-card);
+    */
+    border-radius: 20px; 
+    background: rgba(91, 70, 250, 0.15);
+-webkit-backdrop-filter: blur(50px);
+backdrop-filter: blur(50px);
+
+    padding: 30px;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+}
+.profile{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;   
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.job{
+    border-radius: 12px;
+    background-color: var(--bg-light-items);
+    width: fit-content;
+    margin: auto;
+    padding: 5px 15px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.telegram_icon{
+    background-color: var(--bg-light-items);
+    color: rgb(44, 140, 250);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+.instagram_icon{
+    background-color: var(--bg-light-items);
+    color: rgb(250, 44, 44);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+.github_icon{
+    background-color: var(--bg-light-items);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+.telegram_icon:hover{
+    background-color: rgb(44, 140, 250);
+    color: white;
+}
+.instagram_icon:hover{
+    background-color: rgb(250, 44, 44);
+    color: white;
+}
+.github_icon:hover{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.icons_parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.my_info_parent{
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.item_my_info_parent{
+    padding: 10px;
+    background-color: var(--bg-light-items);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.my_info_parent div:last-child{
+    border-bottom: none;
+}
+.phone_icon{
+    background-color: var(--bg-card);
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 12px;
+    color: #e93b81;
+}
+.email_icon{
+    background-color: var(--bg-card);
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 12px;
+    color: #6ab5b9;
+} 
+.location_icon{
+    background-color: var(--bg-card);
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 12px;
+    color: #fd7590;
+}
+.birthday_icon{
+    background-color: var(--bg-card);
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 12px;
+    color: #c17ceb;
+}
+.text_my_info{
+    margin-right: 10px;
+}
+.text_my_info>span{
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+.text_my_info>p{
+    color: var(--text-color);
+    font-size: 16px;
+}
+.email_text{
+    font-size: 12px !important;
+}
+@media (max-width:1200px){
+    .profile_parent{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    .profile{
+        width: 300px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .icons_parent{
+        display: flex;
+        justify-content: center;
+    }
+    .instagram_icon , .github_icon{
+        margin-right: 15px;
+    }
+    .my_info_parent{
+        display: flex;
+        justify-content: space-around;
+        background-color: inherit;
+        flex-wrap: wrap;
+    }
+    .item_my_info_parent{
+        border-bottom: none;
+        background-color: var(--bg-light-items);
+        border-radius: 15px;
+        padding: 10px;
+        width: 40%;
+        margin-top: 10px;
+        padding-right: 10%;
+    }
+}
+@media(max-width:992px){
+    .item_my_info_parent{
+        width: 45%;
+        padding-right: 5%;
+    }
+}
+@media(max-width:768px){
+    .item_my_info_parent{
+        width: 70%;
+        padding-right: 10%;
+    }
+}
+@media(max-width:670px){
+    .item_my_info_parent{
+        width: 90%;
+        padding-right: 10%;
+    }
+    .profile{
+        width: 200px;
+        height: auto;
+    }
+}
+@media(max-width:300px){
+    .item_my_info_parent{
+        width: 100%;
+        padding-right: 10px;
+    }
+    .text_my_info>span{
+        font-size: 10px;
+    }
+    .text_my_info>p{
+        font-size: 12px;
+    }
+    .email_text{
+        font-size: 9px !important;
+    }
+    .phone_icon , .location_icon , .birthday_icon , .email_icon{
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+    }
+}

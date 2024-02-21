@@ -1,0 +1,31 @@
+.item_skills{
+    margin: 20px 0;
+    text-align: center;
+    width: 25%;
+}
+.skills_parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text_skills{
+    margin-top: 5px;
+}
+.progress_bar{
+    height: 10px !important;
+    border-radius: 5px;
+}
+.title_ability{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .item_skills{
+        width: 33%;
+    }
+}
+@media(max-width:300px){
+    .item_skills{
+        width: 50%;
+    }
+}
