@@ -23,10 +23,11 @@ export default function Header() {
 
   useEffect(() => {
       setLocalThemLoad(localStorage.getItem("them"));
-      console.log(localStorage.getItem("them"));
-      if (localStorage.getItem("them") === null) {
+      if (localThemLoad === null) {
         setLocalThem("light");
         localStorage.setItem("them", "light");
+      }else{
+        setLocalThem(localThemLoad)
       }
   }, []);
 
@@ -90,7 +91,7 @@ export default function Header() {
               className={Style.close_menu_icon}
               onClick={() => {
                 setShowSideBarNow(false);
-                setTimeout(() => setShowSideBar(false), 2000);
+                setTimeout(() => setShowSideBar(false), 1500);
               }}
             />
           )}
@@ -119,7 +120,7 @@ export default function Header() {
           className={`${showSideBar && Style.blank_side_bar}`}
           onClick={() => {
             setShowSideBarNow(false);
-            setTimeout(() => setShowSideBar(false), 2000);
+            setTimeout(() => setShowSideBar(false), 1500);
           }}
         ></div>
         <i className={Style.them}>

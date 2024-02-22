@@ -123,42 +123,42 @@
     }
     .show_side_bar>li:nth-child(4n -2){
         animation-name: show-li1;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 50px;
     }
     .show_side_bar>li:nth-child(4n -1){
         animation-name: show-li2;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 105px;
     }
     .show_side_bar>li:nth-child(4n){
         animation-name: show-li3;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 160px;
     }
     .show_side_bar>li:nth-child(4n -3){
         animation-name: show-li4;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 215px;
     }
     .close_side_bar>li:nth-child(4n -2){
         animation-name: close-li1;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 50px;
     }
     .close_side_bar>li:nth-child(4n -1){
         animation-name: close-li2;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 105px;
     }
     .close_side_bar>li:nth-child(4n){
         animation-name: close-li3;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 160px;
     }
     .close_side_bar>li:nth-child(4n -3){
         animation-name: close-li4;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
         top: 215px;
     }
     .show_side_bar{
